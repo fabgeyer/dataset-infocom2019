@@ -1,0 +1,47 @@
+syntax = "proto2";
+
+package netcal;
+
+message Network {
+	required int32 id = 1;
+	repeated Server server = 2;
+	repeated Flow flow = 3;
+}
+
+message Server {
+	required int32 id = 1;
+	required double rate = 2;
+	required double latency = 3;
+}
+
+message Flow {
+	required int32 id = 1;
+	required double rate = 2;
+	required double burst = 3;
+	repeated int32 path = 4;
+	required TMAResult tma = 5;
+	required SFAResult sfa = 6;
+	required PMOOResult pmoo = 7;
+}
+
+message TMAResult {
+	required double delay = 1;
+	required double runtime = 2;
+	repeated TMACut res = 3;
+}
+
+message TMACut {
+	required int32 id = 1;
+	required double delay = 2;
+	repeated bool cut = 3;
+}
+
+message SFAResult {
+	required double delay = 1;
+	required double runtime = 2;
+}
+
+message PMOOResult {
+	required double delay = 1;
+	required double runtime = 2;
+}

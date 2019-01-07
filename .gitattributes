@@ -1,0 +1,5 @@
+dataset/dataset.part0.pb.gz filter=lfs diff=lfs merge=lfs -text
+dataset/dataset.part1.pb.gz filter=lfs diff=lfs merge=lfs -text
+dataset/dataset.part2.pb.gz filter=lfs diff=lfs merge=lfs -text
+dataset/dataset.part3.pb.gz filter=lfs diff=lfs merge=lfs -text
+dataset/dataset.part4.pb.gz filter=lfs diff=lfs merge=lfs -text
