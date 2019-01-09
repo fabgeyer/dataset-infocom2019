@@ -26,7 +26,7 @@ message Flow {
 
 message TMAResult {
 	required double delay = 1;
-	required double runtime = 2;
+	required double runtime = 2; // Unit: ms
 	repeated TMACut res = 3;
 }
 
@@ -38,10 +38,10 @@ message TMACut {
 
 message SFAResult {
 	required double delay = 1;
-	required double runtime = 2;
+	required double runtime = 2; // Unit: ms
 }
 
 message PMOOResult {
 	required double delay = 1;
-	required double runtime = 2;
+	required double runtime = 2; // Unit: ms
 }
