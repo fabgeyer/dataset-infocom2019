@@ -1,6 +1,6 @@
 # DeepTMA: Predicting Effective Contention Models for Network Calculus using Graph Neural Networks
 
-This repository contains the dataset used for the paper _"DeepTMA: Predicting Effective Contention Models for Network Calculus using Graph Neural Networks"_ publish at the [38th IEEE International Conference on Computer Communications (INFOCOM 2019)](http://infocom2019.ieee-infocom.org/). We refer to the paper for a full explanation of the methodology used for generating the dataset.
+This repository contains the dataset used for the paper [_"DeepTMA: Predicting Effective Contention Models for Network Calculus using Graph Neural Networks"_](https://dx.doi.org/10.1109/INFOCOM.2019.8737496) publish at the [38th IEEE International Conference on Computer Communications (INFOCOM 2019)](http://infocom2019.ieee-infocom.org/). We refer to the paper for a full explanation of the methodology used for generating the dataset.
 
 ## Reading the dataset
 
@@ -31,5 +31,6 @@ If you use this dataset for your research, please include the following referenc
 	year      = {2019},
 	month     = apr,
 	address   = {Paris, France},
+	doi       = {10.1109/INFOCOM.2019.8737496},
 }
 ```
