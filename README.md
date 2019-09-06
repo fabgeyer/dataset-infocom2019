@@ -2,6 +2,15 @@
 
 This repository contains the dataset used for the paper [_"DeepTMA: Predicting Effective Contention Models for Network Calculus using Graph Neural Networks"_](https://dx.doi.org/10.1109/INFOCOM.2019.8737496) publish at the [38th IEEE International Conference on Computer Communications (INFOCOM 2019)](http://infocom2019.ieee-infocom.org/). We refer to the paper for a full explanation of the methodology used for generating the dataset.
 
+
+## Getting the dataset
+
+The dataset is stored in the git repository using [git lfs](https://git-lfs.github.com/). Install git lfs on your system first and then clone the repository using:
+
+```
+$ git lfs clone https://github.com/fabgeyer/dataset-infocom2019.git
+```
+
 ## Reading the dataset
 
 Each file is encoded using [Protocol Buffers](https://developers.google.com/protocol-buffers/). The data structure is defined in `dataset_infocom2019.proto` and can be compiled to various target languages (e.g. Java, Python, Objective-C, and C++) using the `protoc` command line utility.
